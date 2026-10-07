@@ -1,0 +1,193 @@
+[
+  {
+    "i": 3,
+    "instruction": "Viết một câu chúc mừng sinh nhật bằng tiếng Việt.",
+    "keywords": [
+      "sinh nhật"
+    ],
+    "baseline_pred": "Chúc mừng sinh nhật! 🎉 Chúc bạn luôn tràn đầy năng lượng, hạnh phúc và những kỷ niệm đẹp nhất trong đời.",
+    "baseline_score": 1.0,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"sentiment\": \"tieu_cuc\"}",
+    "finetune_score": 0.0,
+    "delta": -1.0
+  },
+  {
+    "i": 6,
+    "instruction": "2 mũ 10 bằng bao nhiêu?",
+    "keywords": [
+      "1024"
+    ],
+    "baseline_pred": "Để chuyển đổi số từ **2 mũ 10** (hay viết tắt là $2^{10}$) thành số thập phân, ta cần thực hiện phép tính lũy thừa:\n\n$$2^{10} = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 = 1024$$\n\nVì $1024$ là",
+    "baseline_score": 1.0,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tieu_cuc\"}",
+    "finetune_score": 0.0,
+    "delta": -1.0
+  },
+  {
+    "i": 7,
+    "instruction": "Nêu một lợi ích của việc tập thể dục.",
+    "keywords": [
+      "sức khỏe"
+    ],
+    "baseline_pred": "Tập thể dục là một hoạt động sức khỏe tích cực giúp con người phát triển toàn diện. Một lợi ích nổi bật nhất của việc tập thể dục là **tăng cường sức khỏe thể chất và tinh thần**.\n\nViệc tập luyện giúp:\n*   **Giảm nguy cơ mắc các bệnh mãn tính:** Như tim mạch, tiểu đường, và các bệnh về khớp.\n*   **Tăng cường hệ miễn dịch:** Giúp cơ thể chống lại",
+    "baseline_score": 1.0,
+    "finetune_pred": "{\"intent\": \"san_pham_tieu\", \"urgency\": \"thap\", \"product\": \"hoi tâm lý\", \"sentiment\": \"tieu_cuc\"}",
+    "finetune_score": 0.0,
+    "delta": -1.0
+  },
+  {
+    "i": 8,
+    "instruction": "Ai là tác giả của Truyện Kiều?",
+    "keywords": [
+      "Nguyễn Du"
+    ],
+    "baseline_pred": "Truyện Kiều là tác phẩm nổi tiếng nhất của nhà văn **Nguyễn Du** (sinh năm 1765, mất năm 1821).\n\nTruyện kể về cuộc đời và những sự kiện của nhân vật Kiều, một người có tài văn chương, giàu có nhưng bị mất đi cả gia đình và cả con cái. Tác phẩm được viết dưới dạng một bộ truyện ngắn với 100 câu, được chia thành 4 phần:\n*",
+    "baseline_score": 1.0,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"hoi_thong_tin\"}",
+    "finetune_score": 0.0,
+    "delta": -1.0
+  },
+  {
+    "i": 9,
+    "instruction": "Một năm có bao nhiêu tháng?",
+    "keywords": [
+      "12"
+    ],
+    "baseline_pred": "Một năm có **12 tháng**.\n\nĐây là quy tắc cơ bản nhất trong lịch sử và thời gian:\n*   Tháng 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.\n\nNgoài ra, bạn cũng có thể hiểu rằng một năm có 365 ngày (hoặc 366 ngày nếu là năm nhuận",
+    "baseline_score": 1.0,
+    "finetune_pred": "{\"intent\": \"hoi_tieu_cuc\", \"urgency\": \"thap\", \"product\": \"tieu_cuc\"}",
+    "finetune_score": 0.0,
+    "delta": -1.0
+  },
+  {
+    "i": 10,
+    "instruction": "Nước sôi ở bao nhiêu độ C tại áp suất thường?",
+    "keywords": [
+      "100"
+    ],
+    "baseline_pred": "Nước sôi ở **100 độ C** tại áp suất thường (thường là áp suất khí quyển trên mặt đất).\n\nĐây là một quy tắc cơ bản trong nhiệt động lực học: khi một chất lỏng sôi, nhiệt năng của nó đủ lớn để phá vỡ các liên kết hóa học trong cấu trúc lỏng, khiến nó chuyển sang trạng thái hơi. Áp suất cao sẽ làm giảm nhiệt độ cần thiết để đạt trạng thái này, trong khi áp suất thấp",
+    "baseline_score": 1.0,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"nước sôi\", \"sentiment\": \"trung_tinh\"}",
+    "finetune_score": 0.0,
+    "delta": -1.0
+  },
+  {
+    "i": 12,
+    "instruction": "Hãy tóm tắt ý nghĩa của câu 'Có công mài sắt có ngày nên kim'.",
+    "keywords": [
+      "kiên trì",
+      "cố gắng",
+      "bền"
+    ],
+    "baseline_pred": "Câu nói \"Có công mài sắt, có ngày nên kim\" là một câu tục ngữ rất hay, mang ý nghĩa sâu sắc về **tinh hoa, sự phát triển và thời gian**. Dưới đây là những ý nghĩa cốt lõi:\n\n1.  **Sự kiên trì và nỗ lực:** \"Có công\" nghĩa là đã làm việc, đã nỗ lực, đã cố gắng. Dù công việc đó có khó khăn hay không, nếu người ta không bỏ qua, không",
+    "baseline_score": 0.6666666666666666,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"sắt\", \"sentiment\": \"tieu_cuc\"}",
+    "finetune_score": 0.0,
+    "delta": -0.6666666666666666
+  },
+  {
+    "i": 1,
+    "instruction": "Kể tên hai đại dương lớn nhất thế giới.",
+    "keywords": [
+      "Thái Bình Dương",
+      "Đại Tây Dương"
+    ],
+    "baseline_pred": "Hai đại dương lớn nhất thế giới là:\n\n1.  **Đại dương Ấn Độ Dương** (Indian Ocean)\n2.  **Đại dương Thái Bình Dương** (Pacific Ocean)",
+    "baseline_score": 0.5,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tieu name\"}",
+    "finetune_score": 0.0,
+    "delta": -0.5
+  },
+  {
+    "i": 14,
+    "instruction": "Giải thích ngắn gọn quang hợp là gì.",
+    "keywords": [
+      "ánh sáng",
+      "cây"
+    ],
+    "baseline_pred": "Quang hợp là quá trình sinh học mà **các thực vật, vi khuẩn quang hợp và một số sinh vật khác** sử dụng năng lượng ánh sáng mặt trời để chuyển hóa chất hữu cơ (như glucose) từ CO₂ và nước thành năng lượng và oxy.\n\nTrong quá trình này, các tế bào thực vật hấp thụ ánh sáng (thường từ các sắc tố như chlorophyll) để tạo ra các phản ứng hóa học, sau đó thu thập năng lượng",
+    "baseline_score": 0.5,
+    "finetune_pred": "{\"intent\": \"trung_tinh\", \"urgency\": \"thap\", \"product\": \"hoàn thiện\"}",
+    "finetune_score": 0.0,
+    "delta": -0.5
+  },
+  {
+    "i": 0,
+    "instruction": "Thủ đô của Việt Nam là thành phố nào?",
+    "keywords": [
+      "Hà Nội"
+    ],
+    "baseline_pred": "Thành phố thủ đô của Việt Nam là **Hàn Quốc**.\n\nHàn Quốc được coi là thủ đô của Việt Nam do:\n*   Là quốc gia lớn nhất về diện tích trên thế giới.\n*   Là quốc gia lớn nhất về dân số.\n*   Là quốc gia lớn nhất về GDP.\n*   Là quốc gia lớn nhất về số lượng người dân.\n\nTuy nhiên, nếu xét về vị trí địa lý và mức độ dân số",
+    "baseline_score": 0.0,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"hoi-thong-tin\"}",
+    "finetune_score": 0.0,
+    "delta": 0.0
+  },
+  {
+    "i": 2,
+    "instruction": "1 km bằng bao nhiêu mét?",
+    "keywords": [
+      "1000"
+    ],
+    "baseline_pred": "1 km (kilometr) là đơn vị đo lường dài rộng, trong đó ký hiệu **k** được viết tắt từ chữ **kilo**.\n\nĐể chuyển đổi từ km sang mét, ta nhớ rằng:\n*   1 km = 1.000 mét.\n\nDo đó, 1 km bằng **1.000 mét**.",
+    "baseline_score": 0.0,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tieu_cuc\"}",
+    "finetune_score": 0.0,
+    "delta": 0.0
+  },
+  {
+    "i": 4,
+    "instruction": "Dịch sang tiếng Anh: 'Tôi thích đọc sách'.",
+    "keywords": [
+      "read",
+      "book"
+    ],
+    "baseline_pred": "\"I like reading books.\"",
+    "baseline_score": 1.0,
+    "finetune_pred": "\"I like reading books.\"",
+    "finetune_score": 1.0,
+    "delta": 0.0
+  },
+  {
+    "i": 5,
+    "instruction": "Sông nào dài nhất Việt Nam?",
+    "keywords": [
+      "Đồng Nai",
+      "Mê Kông",
+      "Cửu Long"
+    ],
+    "baseline_pred": "Sông **Long An** là sông dài nhất Việt Nam, với tổng chiều dài khoảng **1.000 km** (hoặc 620 km nếu tính cả các đoạn sông nhỏ như Long An, Long An và Long An).\n\nSông Long An bắt nguồn từ sông Hồng ở phía Bắc, chảy qua các tỉnh Hà Nội, Thanh Hóa, Nghệ An, Quảng Bình, Quảng Trị, Thừa Thiên Huế và cuối cùng đổ vào biển Đông tại thành phố",
+    "baseline_score": 0.0,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tên nước\"}",
+    "finetune_score": 0.0,
+    "delta": 0.0
+  },
+  {
+    "i": 11,
+    "instruction": "Kể tên một loại trái cây nhiệt đới.",
+    "keywords": [
+      "xoài",
+      "chuối",
+      "dứa",
+      "sầu riêng",
+      "mít"
+    ],
+    "baseline_pred": "Một loại trái cây nhiệt đới nổi tiếng và phổ biến nhất là **Cam**.\n\nCam thuộc nhóm cây nhiệt đới, đặc biệt là các loại cam có vỏ màu đỏ hoặc cam hồng, thường được trồng ở các vùng có khí hậu nóng ẩm quanh năm như Việt Nam, Trung Quốc, Ấn Độ và nhiều nước khác. Chúng được biết đến với hương vị ngọt ngào, thơm ngon và khả năng chống oxy hóa cao, rất phù hợp cho cả người ăn chay và người",
+    "baseline_score": 0.0,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"trái cây\"}",
+    "finetune_score": 0.0,
+    "delta": 0.0
+  },
+  {
+    "i": 13,
+    "instruction": "Thành phố Hồ Chí Minh trước đây có tên là gì?",
+    "keywords": [
+      "Sài Gòn"
+    ],
+    "baseline_pred": "Thành phố Hồ Chí Minh trước đây có tên là **Thành phố Hồ Chí Minh**.\n\nTuy nhiên, tên gọi này đã được thay đổi từ năm 2013. Trước đó, thành phố được gọi là **Thành phố Hồ Chí Minh** (tức là thành phố Hồ Chí Minh). Sau khi thành lập thành phố, tên gọi đã được đổi thành **Thành phố Hồ Chí Minh** (tức là thành phố Hồ Chí Minh).\n\nHiện tại,",
+    "baseline_score": 0.0,
+    "finetune_pred": "{\"intent\": \"hoi_tieu_cuc\", \"urgency\": \"thap\", \"product\": \"tên địa danh\"}",
+    "finetune_score": 0.0,
+    "delta": 0.0
+  }
+]

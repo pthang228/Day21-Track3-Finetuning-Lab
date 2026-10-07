@@ -1,0 +1,25 @@
+{
+  "tier": "CPU",
+  "model": "Qwen/Qwen3.5-0.8B",
+  "baseline_a": {
+    "target": 0.0,
+    "regression": 0.5777777777777777,
+    "format": 0.0,
+    "latency_ms": 5397.502374001779,
+    "n": 50,
+    "extra": {}
+  },
+  "baseline_b": {
+    "target": 0.495,
+    "regression": 0.5777777777777777,
+    "format": 1.0,
+    "latency_ms": 1296.4704719930887,
+    "n": 50,
+    "extra": {}
+  },
+  "optimized_prompt_sha": "719e74d3b6232053",
+  "n_target": 50,
+  "n_regression": 15,
+  "eval_limit": null,
+  "smoke_mode": false
+}

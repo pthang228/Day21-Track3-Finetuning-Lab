@@ -1,0 +1,72 @@
+[
+  {
+    "i": 12,
+    "ticket": "Shop ơi, mình đặt áo khoác gió mã đơn VN613097. Bị lỗi. Khi nào tiện. Cảm ơn shop nhiều.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "thap",
+      "product": "áo khoác gió",
+      "sentiment": "tich_cuc"
+    },
+    "baseline_b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+    "baseline_b_score": 0.5,
+    "finetune_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"thap\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+    "finetune_score": 0.75
+  },
+  {
+    "i": 18,
+    "ticket": "Shop ơi, mình đặt máy xay sinh tố mã đơn DH777946. Khi nào có tiền về. Mong shop phản hồi. Rất thất vọng.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "trung_binh",
+      "product": "máy xay sinh tố",
+      "sentiment": "tieu_cuc"
+    },
+    "baseline_b_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+    "baseline_b_score": 0.5,
+    "finetune_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"thap\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tieu_cuc\"}",
+    "finetune_score": 0.75
+  },
+  {
+    "i": 23,
+    "ticket": "Chào shop, mình đặt nồi chiên không dầu mã đơn VN558606. Giao hàng chậm. Mong shop phản hồi. Lần cuối mua ở đây.",
+    "label": {
+      "intent": "van_chuyen",
+      "urgency": "trung_binh",
+      "product": "nồi chiên không dầu",
+      "sentiment": "tieu_cuc"
+    },
+    "baseline_b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"trung_tinh\"}",
+    "baseline_b_score": 0.5,
+    "finetune_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"thap\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tieu_cuc\"}",
+    "finetune_score": 0.75
+  },
+  {
+    "i": 48,
+    "ticket": "Alo shop, mình đặt ốp lưng điện thoại mã đơn DH734695. Giá bao nhiêu. Mong shop phản hồi. Nhờ shop kiểm tra.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "trung_binh",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "trung_tinh"
+    },
+    "baseline_b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"trung_tinh\"}",
+    "baseline_b_score": 0.5,
+    "finetune_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"trung_binh\", \"product\": \"ốp lưng điện thoại\", \"sentiment\": \"trung_tinh\"}",
+    "finetune_score": 1.0
+  },
+  {
+    "i": 49,
+    "ticket": "Chào shop, mình đặt ốp lưng điện thoại mã đơn VN833689. Sai màu. Sớm nhé. Shop xem giúp.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "trung_binh",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "trung_tinh"
+    },
+    "baseline_b_pred": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"tich_cuc\"}",
+    "baseline_b_score": 0.25,
+    "finetune_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"trung_binh\", \"product\": \"ốp lưng điện thoại\", \"sentiment\": \"trung_tinh\"}",
+    "finetune_score": 1.0
+  }
+]

@@ -26,6 +26,9 @@ wandb/
 # Model / HF cache
 .cache/
 hf_cache/
+.hf-cache/
+.pip-cache/
+.tmp/
 
 # Secrets
 .env

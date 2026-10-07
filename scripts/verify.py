@@ -32,7 +32,13 @@ def check(name: str, status: str, detail: str = "") -> None:
 
 
 def _sha(path: pathlib.Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+    data = path.read_bytes()
+    # Git may check text files out as CRLF on Windows while checksums.json is generated
+    # from the canonical LF blobs.  Integrity checks must describe content, not the
+    # platform's checkout convention; otherwise an untouched Windows clone always fails.
+    if path.suffix in {".jsonl", ".json", ".md", ".txt"}:
+        data = data.replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest()[:16]
 
 
 def _load_json(path: pathlib.Path):
